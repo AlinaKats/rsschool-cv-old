@@ -1,1 +1,1 @@
-https://github-alinakats.github.io/rsschool-cv/cv
+https://alinakats.github.io/rsschool-cv/cv
