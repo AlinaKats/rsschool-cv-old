@@ -45,3 +45,17 @@ body {
     overflow: hidden;
 }
 /* ------------------------------ */
+.wrapper {
+}
+.header {
+}
+.main {
+}
+.main__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    font-style: italic;
+}
+.footer {
+}
