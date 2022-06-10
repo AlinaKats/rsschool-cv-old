@@ -26,6 +26,7 @@ Programming Languages
 * JavaScript 
 * BEM Methodology
 * Git/GitHub
+* Figma
 
 Coding Example
 -----------------
@@ -43,7 +44,7 @@ Study now.
 Education 
 --------------
 * [HTML, CSS, JS](https://www.udemy.com/course/frontend-html-css-javascript/) in process...
-* [HTML](https://ru.code-basics.com/languages/html) in process...
+* [HTML](https://ru.code-basics.com/languages/html) 
 * [CSS](https://ru.code-basics.com/languages/css)
 * [JS for Beginners](https://ru.code-basics.com/languages/javascript)
 

@@ -98,7 +98,7 @@ body {
     content: "";
     width: 90%;
     height: 2px;
-    background-color: #d39200;
+    background-color: #ecab14;
     position: absolute;
     border-radius: 5%;
     top: 90%;
@@ -145,8 +145,8 @@ body {
     color: #e9f2ef;
 }
 .item__contact:hover {
-    border-bottom: 1px solid #d39200;
-    color: #d39200;
+    border-bottom: 1px solid #ecab14;
+    color: #ecab14;
     transition: all 0.5s ease;
 }
 .item__contact {
@@ -157,9 +157,59 @@ body {
 .about {
     display: flex;
 }
+.about__block-heading {
+    background-color: #012f2cf1;
+}
 .about__block-content {
     background-color: #146255;
 }
+.programming-languages {
+    display: flex;
+}
+
+.programming-languages__block-content {
+}
+.block-content__list-skills {
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.block-content__list-skills li::before {
+    width: 10px;
+    height: 10px;
+    color: #ecab14;
+    border-radius: 50%;
+    content: "*";
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.coding-example {
+    display: flex;
+}
+.coding-example__block-heading {
+    background-color: #012f2cf1;
+}
+.coding-example__block-content {
+    background-color: #146255;
+}
+.education {
+    display: flex;
+}
+.block-content__link {
+    display: block;
+}
+.block-content__link:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+}
+.block-content__link:hover {
+    color: #ecab14;
+    text-decoration: underline;
+    transition: all 0.5s ease 0s;
+}
 .cv-footer {
     flex: 0 0 65px;
+    background-color: #012f2c;
 }
