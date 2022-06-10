@@ -17,7 +17,7 @@ About me
 ------------
 I graduated from a medical university and worked as a doctor for about 2 years. But my life changed, I married and moved to another country. 
 My education now is not recognized in the county I live. And my lifestyle gives me a chance to change my knowledge. 
-I want to change my profession and become a valuable specialist Junior Software Engineer. I have a very stubborn character and I will achieve my goal.
+I want to change my profession and become a valuable specialist Junior Front-end web-developer. I have a very stubborn character and I will achieve my goal.
 
 Programming Languages
 ------------------------

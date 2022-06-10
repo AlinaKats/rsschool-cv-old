@@ -11,8 +11,8 @@
 
 <body>
     <div class="wrapper">
-        <div class="cv-container">
-            <header class="cv-header">
+        <header class="cv-header">
+            <div class="cv-header__container container">
                 <div class="cv-header__cidebar">
                     <img src="../CV/20211028_141400.jpg" alt="My photo" class="cv-header__photo">
                 </div>
@@ -20,13 +20,15 @@
                     <h1 class="cv-header__title"> Alina Emelianova</h1>
                     <h4 class="cv-header__subtitle"> Front-end web-developer (beginner)</h4>
                 </div>
-            </header>
-            <main class="cv-main">
-                <section class="cv-main__contacts">
-                    <div class="cv-main__block-heading block-heading">
+            </div>
+        </header>
+        <main class="cv-main">
+            <div class="cv-main__container container">
+                <section class="cv-main__contacts contacts">
+                    <div class="contacts__block-heading block-heading">
                         <h4 class="block-heading__title"> Contacts </h4>
                     </div>
-                    <div class="cv-main__block-content block-content">
+                    <div class="contacts__block-content block-content">
                         <ul class="block-content__list">
                             <li class="block-content__item">
                                 <h5 class="item__title"> Location</h5>
@@ -42,11 +44,6 @@
                                     class="item__contact">alina.emelianova91@gmail.com</a>
                             </li>
                             <li class="block-content__item">
-                                <h5 class="item__title"> Telegram</h5>
-                                <a href="https://t.me/AlinaKatss" target="_blank" class="item__contact"> Send me
-                                    messege</a>
-                            </li>
-                            <li class="block-content__item">
                                 <h5 class="item__title"> GitHub</h5>
                                 <a href="https://github.com/AlinaKats" target="_blank" class="item__contact"> AlinaKats
                                 </a>
@@ -54,11 +51,29 @@
                         </ul>
                     </div>
                 </section>
-            </main>
-            <footer class="cv-footer">
-
-            </footer>
-        </div>
+                <section class="cv-main__about about">
+                    <div class="about__block-heading block-heading">
+                        <h4 class="block-heading__title"> About me </h4>
+                    </div>
+                    <div class="about__block-content block-content">
+                        <p class="block-content__text">
+                            I graduated from a medical university and worked as a doctor for about 2 years. But my life
+                            changed, I married and moved to another country.
+                            My education now is not recognized in the county I live. And my lifestyle gives me a chance
+                            to change my knowledge.
+                            I want to change my profession and become a valuable specialist Junior Front-end
+                            web-developer. I
+                            have a very stubborn character and I will achieve my goal.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="cv-footer">
+            <div class="cv-footer__container container">
+                i'm footer
+            </div>
+        </footer>
     </div>
 </body>
 

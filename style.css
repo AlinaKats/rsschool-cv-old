@@ -14,6 +14,7 @@ li {
 a,
 a:visited {
     text-decoration: none;
+    color: inherit;
 }
 a:hover {
     text-decoration: none;
@@ -47,15 +48,20 @@ body {
     min-height: 100%;
     overflow: hidden;
     background: #e2c18b;
+    display: flex;
+    flex-direction: column;
 }
-.cv-container {
-    max-width: 1020px;
+.container {
+    max-width: 1050px;
     margin: 0 auto;
 }
+/*-----HEADER-------*/
 .cv-header {
+    flex: 0 0 405px;
+}
+.cv-header__container {
     display: flex;
 }
-
 .cv-header__cidebar {
     flex: 0 0 30%;
     max-width: 300px;
@@ -98,7 +104,62 @@ body {
     top: 90%;
     right: 5%;
 }
+/*-----MAIN-------*/
 .cv-main {
+    flex: 1 1 auto;
+}
+.contacts {
+    display: flex;
+}
+.block-heading {
+    flex: 0 0 30%;
+    max-width: 300px;
+    background-color: #012f2c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+.block-heading__title {
+    font-weight: 700;
+    font-size: 20px;
+}
+.block-content {
+    flex: 0 0 70%;
+    padding: 20px 20px;
+    background-color: #045346;
+}
+.block-content__list {
+    display: flex;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.block-content__item {
+    flex: 1 1 20%;
+    padding: 0 10px;
+}
+.item__title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #e9f2ef;
+}
+.item__contact:hover {
+    border-bottom: 1px solid #d39200;
+    color: #d39200;
+    transition: all 0.5s ease;
+}
+.item__contact {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+}
+.about {
+    display: flex;
+}
+.about__block-content {
+    background-color: #146255;
 }
 .cv-footer {
+    flex: 0 0 65px;
 }
