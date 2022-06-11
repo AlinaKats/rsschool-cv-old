@@ -15,6 +15,8 @@ _e-mail:_ alina.emelianova91@gmail.com
 
 About me
 ------------
+At school, I loved computer science and dreamed of becoming a
+programmer. But there were many doctors in my family. They saw me as a doctor.
 I graduated from a medical university and worked as a doctor for about 2 years. But my life changed, I married and moved to another country. 
 My education now is not recognized in the county I live. And my lifestyle gives me a chance to change my knowledge. 
 I want to change my profession and become a valuable specialist Junior Front-end web-developer. I have a very stubborn character and I will achieve my goal.
