@@ -32,7 +32,7 @@
                         <ul class="block-content__list">
                             <li class="block-content__item">
                                 <h5 class="item__title"> Location</h5>
-                                <adress class="item__contact"> Greece, Corfu</adress>
+                                <p class="item__contact"> Greece, Corfu</p>
                             </li>
                             <li class="block-content__item">
                                 <h5 class="item__title"> Phone Number</h5>
@@ -56,15 +56,16 @@
                         <h4 class="block-heading__title"> About me </h4>
                     </div>
                     <div class="about__block-content block-content">
+                        <p class="block-content__text">At school, I loved computer science and dreamed of becoming a
+                            programmer. But there were many doctors in my family. They saw me as a doctor.</p>
                         <p class="block-content__text">
                             I graduated from a medical university and worked as a doctor for about 2 years. But my life
-                            changed, I married and moved to another country.
-                            My education now is not recognized in the county I live. And my lifestyle gives me a chance
+                            changed, I married and moved to another country. My education now is not recognized in the
+                            county I live. And my lifestyle gives me a chance
                             to change my knowledge.
-                            I want to change my profession and become a valuable specialist Junior Front-end
-                            web-developer. I
-                            have a very stubborn character and I will achieve my goal.
                         </p>
+                        <p class="block-content__text">I want to change my profession and become a valuable specialist
+                            Junior Front-end developer. I have a very stubborn character and I will achieve my goal.</p>
                     </div>
                 </section>
                 <section class="cv-main__programming-languages programming-languages">
@@ -87,7 +88,14 @@
                         <h4 class="block-heading__title">Coding Example</h4>
                     </div>
                     <div class="coding-example__block-content block-content">
-
+                        <pre class="block-content__code-example">
+                            <code>
+                                const isIsogram = (str) => {
+                                    let word = str.toLowerCase();
+                                    return new Set(word).size === str.length;
+                                }
+                            </code>
+                        </pre>
                     </div>
                 </section>
                 <section class="cv-main__education education">
@@ -95,6 +103,7 @@
                         <h4 class="block-heading__title">Education</h4>
                     </div>
                     <div class="education__block-content block-content">
+                        <p class="block-content__text"> Volgograd State Medical University </p>
                         <a href="https://www.udemy.com/course/frontend-html-css-javascript/" target="_blank"
                             class="block-content__link"> Udemy course "Front-end developer on HTML, CSS, JS" (in
                             process...)</a>
@@ -110,15 +119,34 @@
                     <div class="expirience__block-heading block-heading">
                         <h4 class="block-heading__title">Expirience</h4>
                     </div>
-                    <div class="expirience__block-content">
-
+                    <div class="expirience__block-content block-content">
+                        <div class="block-content__text">
+                            Study now.
+                        </div>
                     </div>
                 </section>
+                <div class="cv-main__languages languages">
+                    <div class="languages__block-heading block-heading">
+                        <h4 class="block-heading__title"> Languages </h4>
+                    </div>
+                    <div class="languages__block-content block-content">
+                        <ul class="block-content__list-languages">
+                            <li class="block-content__item"> English A2</li>
+                            <li class="block-content__item"> Russian (native) </li>
+                            <li class="block-content__item"> Greek B1-B2 </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="cv-footer">
             <div class="cv-footer__container container">
-                i'm footer
+                <div class="cv-footer__content">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="RS SCHOOL logo" class="cv-footer__label">
+                    <a href="https://rs.school/js/" target="_blank" class="cv-footer__link"> JS/FE Pre-School 2022Q2
+                    </a>
+
+                </div>
             </div>
         </footer>
     </div>

@@ -47,7 +47,8 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
-    background: #e2c18b;
+    background: rgb(4, 83, 70);
+    background: linear-gradient(90deg, rgba(4, 83, 70, 1) 0%, rgba(1, 47, 44, 1) 100%);
     display: flex;
     flex-direction: column;
 }
@@ -158,7 +159,7 @@ body {
     display: flex;
 }
 .about__block-heading {
-    background-color: #012f2cf1;
+    background-color: #012f2cd5;
 }
 .about__block-content {
     background-color: #146255;
@@ -167,8 +168,6 @@ body {
     display: flex;
 }
 
-.programming-languages__block-content {
-}
 .block-content__list-skills {
     font-size: 16px;
     line-height: 150%;
@@ -190,13 +189,36 @@ body {
     display: flex;
 }
 .coding-example__block-heading {
-    background-color: #012f2cf1;
+    background-color: #012f2cd5;
 }
 .coding-example__block-content {
     background-color: #146255;
 }
+.block-content__code-example {
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    overflow-y: hidden;
+    line-height: 20px;
+    background: #eba706b9;
+}
+.block-content__code-example::before {
+    content: "";
+    width: 2px;
+    height: 140px;
+    background-color: #eba706;
+    position: absolute;
+    top: 871px;
+    left: 554px;
+}
 .education {
     display: flex;
+}
+.block-content__text {
+    margin-bottom: 10px;
 }
 .block-content__link {
     display: block;
@@ -209,7 +231,38 @@ body {
     text-decoration: underline;
     transition: all 0.5s ease 0s;
 }
+.expirience {
+    display: flex;
+}
+.expirience__block-heading {
+    background-color: #012f2cd5;
+}
+.expirience__block-content {
+    background-color: #146255;
+}
+.languages {
+    display: flex;
+}
+.block-content__list-languages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block-content__list-languages li::before {
+    width: 10px;
+    height: 10px;
+    color: #ecab14;
+    border-radius: 50%;
+    content: "*";
+    margin-right: 5px;
+    display: inline-block;
+}
+.block-content__item {
+}
+/*--------FOOTER-------*/
 .cv-footer {
     flex: 0 0 65px;
-    background-color: #012f2c;
+    background-color: #ecab14;
+}
+.cv-footer__container {
 }
