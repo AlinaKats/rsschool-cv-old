@@ -55,6 +55,7 @@ body {
 .container {
     max-width: 1050px;
     margin: 0 auto;
+    box-shadow: -10px 0px 10px rgba(167, 166, 166, 0.493);
 }
 /*-----HEADER-------*/
 .cv-header {
@@ -71,6 +72,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 40px;
+    /*box-shadow: -10px 1px 10px rgba(193, 191, 191, 0.493);*/
 }
 .cv-header__photo {
     max-width: 250px;
@@ -81,6 +83,7 @@ body {
     flex: 0 0 70%;
     padding: 230px 40px 100px 30px;
     position: relative;
+    /*box-shadow: 10px 0px 10px rgba(167, 166, 166, 0.493);*/
 }
 .cv-header__title {
     font-size: 40px;
@@ -120,6 +123,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     padding: 40px;
+    /*box-shadow: -10px 1px 10px rgba(167, 166, 166, 0.493);*/
 }
 .block-heading__title {
     font-weight: 700;
@@ -129,6 +133,7 @@ body {
     flex: 0 0 70%;
     padding: 20px 20px;
     background-color: #045346;
+    /*box-shadow: 10px 0px 10px rgba(167, 166, 166, 0.493);*/
 }
 .block-content__list {
     display: flex;
@@ -146,8 +151,9 @@ body {
     color: #e9f2ef;
 }
 .item__contact:hover {
-    border-bottom: 1px solid #ecab14;
+    text-decoration: underline;
     color: #ecab14;
+
     transition: all 0.5s ease;
 }
 .item__contact {
@@ -205,17 +211,17 @@ body {
     line-height: 20px;
     background: #eba706b9;
 }
-.block-content__code-example::before {
-    content: "";
-    width: 2px;
-    height: 140px;
-    background-color: #eba706;
-    position: absolute;
-    top: 871px;
-    left: 554px;
-}
 .education {
     display: flex;
+}
+.education__block-content a::before {
+    content: " ";
+    margin: -2px 10px 0 0;
+    width: 8px;
+    height: 8px;
+    background-color: #ecab14;
+    border-radius: 50%;
+    display: inline-block;
 }
 .block-content__text {
     margin-bottom: 10px;
@@ -263,6 +269,30 @@ body {
 .cv-footer {
     flex: 0 0 65px;
     background-color: #ecab14;
+    padding: 10px;
 }
 .cv-footer__container {
+    box-shadow: none;
+}
+.cv-footer__content {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+.cv-footer__label {
+    max-width: 120px;
+}
+.cv-footer__link {
+    align-self: center;
+}
+.cv-footer__link:hover {
+    text-decoration: underline;
+    color: #fcfcfa;
+    text-shadow: 0px 0px 5px #012f2c;
+}
+.cv-footer__copywriting {
+    align-self: center;
 }
