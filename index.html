@@ -13,18 +13,31 @@
     <div class="wrapper">
         <header class="cv-header">
             <div class="cv-header__container container">
-                <div class="cv-header__cidebar">
-                    <img src="my-photo.jpg" alt="My photo" class="cv-header__photo">
-                </div>
-                <div class="cv-header__block">
-                    <h1 class="cv-header__title"> Alina Emelianova</h1>
-                    <h2 class="cv-header__subtitle"> Front-end web-developer (beginner)</h2>
+                <nav class="cv-header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#contacts" class="menu__link"> Contacts</a></li>
+                        <li class="menu__item"><a href="#about" class="menu__link"> About</a></li>
+                        <li class="menu__item"><a href="#skills" class="menu__link"> Skills</a></li>
+                        <li class="menu__item"><a href="#coding" class="menu__link"> Coding Example</a></li>
+                        <li class="menu__item"><a href="#education" class="menu__link"> Education</a></li>
+                        <li class="menu__item"><a href="#expirience" class="menu__link"> Expirience</a></li>
+                        <li class="menu__item"><a href="#languages" class="menu__link"> Languages</a></li>
+                    </ul>
+                </nav>
+                <div class="cv-header__content">
+                    <div class="cv-header__cidebar">
+                        <img src="my-photo.jpg" alt="My photo" class="cv-header__photo">
+                    </div>
+                    <div class="cv-header__block">
+                        <h1 class="cv-header__title"> Alina Emelianova</h1>
+                        <h2 class="cv-header__subtitle"> Front-end web-developer (beginner)</h2>
+                    </div>
                 </div>
             </div>
         </header>
         <main class="cv-main">
             <div class="cv-main__container container">
-                <section class="cv-main__contacts contacts">
+                <section id="contacts" class="cv-main__contacts contacts">
                     <div class="contacts__block-heading block-heading">
                         <h2 class="block-heading__title"> Contacts </h2>
                     </div>
@@ -55,7 +68,7 @@
                         </ul>
                     </div>
                 </section>
-                <section class="cv-main__about about">
+                <section id="about" class="cv-main__about about">
                     <div class="about__block-heading block-heading">
                         <h2 class="block-heading__title"> About me </h2>
                     </div>
@@ -72,7 +85,7 @@
                             Junior Front-end developer. I have a very stubborn character and I will achieve my goal.</p>
                     </div>
                 </section>
-                <section class="cv-main__programming-languages programming-languages">
+                <section id="skills" class="cv-main__programming-languages programming-languages">
                     <div class="programming-languages__block-heading block-heading">
                         <h2 class="block-heading__title"> Programming Skills </h2>
                     </div>
@@ -87,7 +100,7 @@
                         </ul>
                     </div>
                 </section>
-                <section class="cv-main__coding-example coding-example">
+                <section id="coding" class="cv-main__coding-example coding-example">
                     <div class="coding-example__block-heading block-heading">
                         <h2 class="block-heading__title">Coding Example</h2>
                     </div>
@@ -102,7 +115,7 @@
                         </pre>
                     </div>
                 </section>
-                <section class="cv-main__education education">
+                <section id="education" class="cv-main__education education">
                     <div class="education__block-heading block-heading">
                         <h2 class="block-heading__title">Education</h2>
                     </div>
@@ -119,7 +132,7 @@
                             class="block-content__link">Javascript for beginner</a>
                     </div>
                 </section>
-                <section class="cv-main__expirience expirience">
+                <section id="expirience" class="cv-main__expirience expirience">
                     <div class="expirience__block-heading block-heading">
                         <h2 class="block-heading__title">Expirience</h2>
                     </div>
@@ -129,7 +142,7 @@
                         </div>
                     </div>
                 </section>
-                <div class="cv-main__languages languages">
+                <div id="languages" class="cv-main__languages languages">
                     <div class="languages__block-heading block-heading">
                         <h2 class="block-heading__title"> Languages </h2>
                     </div>
@@ -146,10 +159,15 @@
         <footer class="cv-footer">
             <div class="cv-footer__container container">
                 <div class="cv-footer__content">
-                    <img src="https://rs.school/images/rs_school_js.svg" alt="RS SCHOOL logo" class="cv-footer__label">
-                    <a href="https://rs.school/js/" target="_blank" class="cv-footer__link"> JS/FE Pre-School 2022Q2
+                    <a class="cv-footer__link-school" href="https://rs.school/js/" target="_blank">
+                        <img src="https://rs.school/images/rs_school_js.svg" alt="RS SCHOOL logo"
+                            class="cv-footer__label">
                     </a>
-                    <a href="https://github.com/AlinaKats" target="_blank" class="cv-footer__link"> GitHub </a>
+
+                    <a class="cv-footer__link" href="https://rs.school/js-stage0/" target="_blank"> JS/FE Pre-School
+                        2022Q2
+                    </a>
+                    <a class="cv-footer__link" href="https://github.com/AlinaKats" target="_blank"> GitHub </a>
                     <p class="cv-footer__copywriting">
                         &copy; Alina Emelianova 2022
                     </p>

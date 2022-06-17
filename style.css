@@ -61,9 +61,33 @@ body {
 .cv-header {
     flex: 0 0 405px;
 }
-.cv-header__container {
+.cv-header__content {
     display: flex;
 }
+/*---------Menu------------*/
+.cv-header__menu {
+}
+.menu {
+}
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.15px;
+    text-shadow: 1px 1px 3px rgb(241, 245, 144);
+}
+.menu__link {
+    color: #ecab14;
+}
+.menu__link:hover {
+    text-decoration: underline;
+}
+.menu__link:visited {
+    color: #ecab14;
+}
+/*----------------*/
 .cv-header__cidebar {
     flex: 0 0 30%;
     max-width: 300px;
@@ -281,6 +305,10 @@ body {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.2px;
+}
+.cv-footer__link-school {
+    display: flex;
+    cursor: pointer;
 }
 .cv-footer__label {
     max-width: 120px;
