@@ -284,6 +284,7 @@ body {
 }
 .cv-footer__link-school {
     display: flex;
+    cursor: pointer;
 }
 .cv-footer__label {
     max-width: 120px;
