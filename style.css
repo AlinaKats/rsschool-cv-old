@@ -282,6 +282,10 @@ body {
     line-height: 150%;
     letter-spacing: 0.2px;
 }
+.cv-footer__link-school {
+    display: flex;
+    cursor: pointer;
+}
 .cv-footer__label {
     max-width: 120px;
 }
